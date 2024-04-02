@@ -1,6 +1,6 @@
-#pca-analysis
+# pca-analysis
 
-# PCA Yüz Analizi Projesi
+## Giriş
 
 Bu proje, PCA (Principal Component Analysis - Temel Bileşen Analizi) kullanarak yüz görüntülerinden öznitelik çıkarma işlemini gerçekleştirmektedir.
 
