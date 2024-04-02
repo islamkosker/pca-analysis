@@ -43,7 +43,7 @@ Bu bölüm, `main.py` dosyasını çalıştırmak için gerekli adımları içer
 
 categories listesini, analiz etmek istediğiniz görüntü klasör isimleriyle güncelleyin. Bu klasörler, dir_path içinde bulunmalıdır.
 ```python
-categories = ['mutlu', 'uzgun']
+categories = ['data_dir1', 'data_dir2']
 ```
 ## Sonuçlar 
 
