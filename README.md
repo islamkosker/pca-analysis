@@ -1,4 +1,4 @@
-#### pca-analysis
+#pca-analysis
 
 # PCA Yüz Analizi Projesi
 
@@ -14,6 +14,7 @@ Python sanal ortamını oluşturmak için terminalinize veya komut satırınıza
 
 ```sh
 # Sanal ortamı oluştur
+cd model
 python -m venv pca-env
 
 # Sanal ortamı aktif et
@@ -21,3 +22,24 @@ python -m venv pca-env
 pca-env\\Scripts\\activate
 # MacOS/Linux'ta:
 source pca-env/bin/activate
+```
+Gerekli kütüphaneleri yüklemek için requirements.txt dosyasını pip ile çalıştırın 
+
+```sh
+pip install -r requirements.txt
+```
+## Kullanım
+
+Bu bölüm, `main.py` dosyasını çalıştırmak için gerekli adımları içermektedir. Projeyi başarıyla çalıştırmak için aşağıdaki talimatları izleyin:
+
+### Ayarlar
+
+1. `main.py` dosyasını bir metin editörü ile açın.
+2. `dir_path` değişkenini, yüz görüntülerinizin bulunduğu klasörün yolu ile güncelleyin. Bu, projenin yüz görüntülerini nereden yükleyeceğini belirler.
+   Örneğin:
+   ```python
+   dir_path = 'path/to/your/images/directory'
+
+
+categories listesini, analiz etmek istediğiniz görüntü klasör isimleriyle güncelleyin. Bu klasörler, dir_path içinde bulunmalıdır.
+categories = ['mutlu', 'uzgun']
