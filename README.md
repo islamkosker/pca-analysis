@@ -56,3 +56,5 @@ categories = ['data_dir1', 'data_dir2']
 
 `projected_data.txt`: Görüntülerin PCA uzayına iz düşürülmüş hallerinin kaydedildiği dosya.
 
+
+
