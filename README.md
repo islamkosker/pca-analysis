@@ -48,6 +48,8 @@ categories = ['mutlu', 'uzgun']
 ## Sonuçlar 
 
 `eigenfaces_combined.png`: En yüksek 10 öz değere karşılık gelen öz yüzlerin birleştirilmiş görüntüsü.
+
 `covariance_matrix.txt`: Kovaryans matrisinin kaydedildiği dosya.
+
 `projected_data.txt`: Görüntülerin PCA uzayına iz düşürülmüş hallerinin kaydedildiği dosya.
 
