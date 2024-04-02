@@ -42,4 +42,12 @@ Bu bölüm, `main.py` dosyasını çalıştırmak için gerekli adımları içer
 
 
 categories listesini, analiz etmek istediğiniz görüntü klasör isimleriyle güncelleyin. Bu klasörler, dir_path içinde bulunmalıdır.
+```python
 categories = ['mutlu', 'uzgun']
+```
+## Sonuçlar 
+
+`eigenfaces_combined.png`: En yüksek 10 öz değere karşılık gelen öz yüzlerin birleştirilmiş görüntüsü.
+`covariance_matrix.txt`: Kovaryans matrisinin kaydedildiği dosya.
+`projected_data.txt`: Görüntülerin PCA uzayına iz düşürülmüş hallerinin kaydedildiği dosya.
+
