@@ -45,6 +45,9 @@ categories listesini, analiz etmek istediğiniz görüntü klasör isimleriyle g
 ```python
 categories = ['data_dir1', 'data_dir2']
 ```
+
+`python main.py` komutu ile projeyi çalıştırıp sonuçları gözlemleyin. 
+
 ## Sonuçlar 
 
 `eigenfaces_combined.png`: En yüksek 10 öz değere karşılık gelen öz yüzlerin birleştirilmiş görüntüsü.
@@ -52,4 +55,6 @@ categories = ['data_dir1', 'data_dir2']
 `covariance_matrix.txt`: Kovaryans matrisinin kaydedildiği dosya.
 
 `projected_data.txt`: Görüntülerin PCA uzayına iz düşürülmüş hallerinin kaydedildiği dosya.
+
+
 
